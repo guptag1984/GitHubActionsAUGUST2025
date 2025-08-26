@@ -4,5 +4,9 @@ jobs:
   first-jobs:
     runs-on: ubuntu-latest
     steps:
-      - name: hello
-        run: echo "Hello Hello"
+       -name: check repo
+         run: ls
+       -name: checkout or clone the repository
+        user: actions/checkout@v4
+      - name: After checkout repo
+        run: ls
