@@ -4,9 +4,9 @@ jobs:
   first-jobs:
     runs-on: ubuntu-latest
     steps:
-       -name: check repo
+       - name: check repo
          run: ls
-       -name: checkout or clone the repository
-        uses: actions/checkout@v4
-      - name: After checkout repo
-        run: ls
+       - name: checkout or clone the repository
+         uses: actions/checkout@v4
+       - name: After checkout repo
+         run: ls
