@@ -7,6 +7,6 @@ jobs:
        -name: check repo
          run: ls
        -name: checkout or clone the repository
-        user: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: After checkout repo
         run: ls
