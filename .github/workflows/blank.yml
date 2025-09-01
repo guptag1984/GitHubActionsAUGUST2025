@@ -2,7 +2,7 @@ name: Deploy website
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   jobs-name:
       runs-on: ubunu-latest
